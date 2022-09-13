@@ -2,15 +2,15 @@ const idcardGenerator = require('./index');
 const fs = require('fs');
 const path = require('path');
 const config = {
-    name: '刘强东',
-    sex: '女',
+    name: '张三',
+    sex: '男',
     nation: '汉',
     year: '2002',
     mon: '2',
     day: '03',
     org: '喵喵县公安局',
-    validTerm: '2014.01.27-2019.01.27',
-    addr: '喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵',
+    validTerm: '2014.01.27-2034.01.27',
+    addr: '我的家在地球',
     idn: '371100197308161831',
     avatar: './images/avatar.png'
 }
